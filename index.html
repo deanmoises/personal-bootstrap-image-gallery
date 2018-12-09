@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Image Gallery</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- The bootstrap cdn should be placed first then the exclusive css from you should come after the bootstrap link so you can override it-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+	<body>
+		<!-- This is a personally made navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<!-- Data Target should match the hamburger below -->
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+	      			</button>
+					<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> KonCept</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<!-- Hamburger Navigation Bar, hides the below element when browser goes to table amd mobile screen -->
+				<!-- Data target should match the id within the navbar-collapse and id -->
+				<!-- Moving outside of the collapse navbar-collapse will retain every bit of that element when minimizing to tablet or mobile screen version -->
+					<!-- Div for left content -->
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Learn More</a>
+						</li>
+						<li>
+							<a href="#">Contact Us</a>
+						</li>
+					</ul>
+					<!-- Div for right content -->
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Login</a>
+						</li>
+						<li>
+							<a href="#">Sign Up</a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<!-- Jumbotron -->
+			<div class="jumbotron">
+				<h1><i class="fa fa-camera-retro"></i> Maddie's Phone Photography</h1>
+				<p>Gallery for a quick snap...</p>
+			</div>
+
+			<!-- Image Gallery -->
+			<div class="row">
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1498163641090-1df07c039069?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1518569399866-276f52c6841d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e6022643f5e01ed335bccf60e8bdc6e&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1532363664322-b46b86cc86d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1519362909365-f8591adb630e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1503104834685-7205e8607eb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-4">
+					<div class="thumbnail">
+						<img src="https://images.unsplash.com/photo-1499155286265-79a9dc9c6380?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
+
+<!-- Objective:
+	1. Unslash - hi-resolution stock images website
+	2. Copy the link via right click and selecting the copy link location like, ?photo=
+	3. paste it into image src
+	4. Fixed Navbar
+	5. Responsiveness set to 3-2-1
+
+	Solution for images having varying sizes.
+	1. For images with varying heights but want to get rid of the white space bug then go to here: https://www.udemy.com/the-web-developer-bootcamp/learn/v4/questions/1989586
+	2. For pinterest-like presentation, you need third-party plugin suchas Masonry (http://masonry.desandro.com/), Isotope (http://isotope.metafizzy.co/), or Salvattore (http://salvattore.com/).
+	3. If you want to crop all images to the same size then go to here: https://codepen.io/nax3t/pen/MJwpdb
+	4. For more information go to this thread: https://www.udemy.com/the-web-developer-bootcamp/learn/v4/questions/1989586
+
+
+===========
+The Colors
+===========
+DARK BLUE: #2c3e50
+LIGHT GRAY: #ecf0f1 -->
